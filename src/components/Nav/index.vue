@@ -1,10 +1,10 @@
 <template>
   <ul class="top-nav">
     <li>
-      <router-link to="/">首页</router-link>
+      <router-link exact to="/">首页</router-link>
     </li>
     <li>
-      <router-link to="/songLists">歌单</router-link>
+      <router-link to="/songList">歌单</router-link>
     </li>
     <li>
       <router-link to="/artists">歌手</router-link>

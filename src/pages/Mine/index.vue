@@ -1,12 +1,18 @@
 <template>
   <div>
+    <Nav/>
     Mine
   </div>
 </template>
 
 <script>
+  import Nav from '../../components/Nav'
+
   export default {
-    name: "Mine"
+    name: "Mine",
+    components:{
+      Nav
+    }
   }
 </script>
 
