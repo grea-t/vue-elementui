@@ -10,7 +10,7 @@ import Top from '../pages/Top'
 Vue.use(Router)
 
 export default new Router({
-  linkActiveClass:"active",
+  linkActiveClass: "active",
   routes: [
     {
       path: '/',
@@ -33,4 +33,3 @@ export default new Router({
     }
   ]
 })
-

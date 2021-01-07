@@ -10,7 +10,7 @@
 
   export default {
     name: "Top",
-    components: {
+    components:{
       Nav
     }
   }
